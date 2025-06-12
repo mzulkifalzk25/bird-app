@@ -1,0 +1,118 @@
+# =====================
+# Django (.gitignore)
+# =====================
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+*.log
+db.sqlite3
+
+# Ignore Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Environment
+.env
+*.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Static and media (optional)
+staticfiles/
+media/
+
+# =====================
+# Flutter (.gitignore)
+# =====================
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+.generated/
+
+# IntelliJ related
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/build/
+android/**/captures/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/**/build/
+ios/Flutter/App.framework
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Web (if using Flutter web)
+web/.dart_tool/
+web/build/
+
+# Linux
+linux/**/build/
+linux/flutter/ephemeral/
+
+# Windows
+windows/**/build/
+windows/flutter/ephemeral/
+
+# Fuchsia
+fuchsia/**/build/
+
+# Symbolic links
+pubspec.lock
+
+# =====================
+# General
+# =====================
+*.swp
+*~
+*.tmp
+*.bak
+*.orig
+*.rej
